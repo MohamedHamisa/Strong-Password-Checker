@@ -19,6 +19,13 @@ class Solution:
             g = [r for _,r in g]
  
         return max(ans, sum(r//3 for r in g))+max(0,len(password)-20)  
+'''
+Time complexity:
+O(n)
+
+Space complexity:
+O(1)
+'''
  
 
         
